@@ -1,0 +1,6 @@
+RequestID,RequestTitle,RequesterEmail,Priority,Status,DueDate,ReminderSent,ApprovalOutcome,ApprovalComments,CalendarEventID,DataverseRowID,SQLAuditID,DiagnosticDivisor
+NW-1001,Archive completed service tickets,learner.c903@example.invalid,Low,Closed,2026-08-01,Yes,,,,,,1
+NW-1002,Send due request reminder,learner.c903@example.invalid,Normal,Open,2026-08-02,No,,,,,,1
+NW-1003,Review urgent access request,learner.c903@example.invalid,High,Pending Approval,2026-08-03,No,,,,,,1
+NW-1004,Create coordinator focus block,learner.c903@example.invalid,Normal,Approved,2026-08-04,No,Approve,,,,,1
+NW-1005,Write integration audit record,learner.c903@example.invalid,High,New,2026-08-05,No,,,,,,1
