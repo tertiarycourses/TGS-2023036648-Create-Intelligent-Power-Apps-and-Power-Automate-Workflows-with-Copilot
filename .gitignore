@@ -1,0 +1,29 @@
+# Confidential — assessment papers and answer keys never leave Drive/LMS
+assessment/
+reference/tms/
+
+# Secrets and credentials
+.env
+.env.local
+*.pem
+*.key
+.claude/lms_tms_api_key
+
+# Source decks from the previous version (large binaries, not courseware output)
+reference/*.pptx
+
+# Build caches and OS junk
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.DS_Store
+**/.DS_Store
+~$*
+*.tmp
+
+# The installed WSQ toolchain is not course content — it lives in
+# github.com/tertiarycourses/wsqskills, and some of its bundled generators
+# carry shared training-account passwords that must not reach a public repo.
+.claude/

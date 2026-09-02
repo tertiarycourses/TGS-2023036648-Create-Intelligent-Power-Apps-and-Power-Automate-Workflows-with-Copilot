@@ -1,0 +1,7 @@
+ViewName,FilterColumn,Operator,Value,SortColumn,SortDirection
+Available Properties,Status,Equals,Available,Asking Price,Descending
+Commercial Listings,Property Type,Equals,Commercial,Asking Price,Descending
+Under Offer This Quarter,Status,Equals,Under Offer,Listed On,Ascending
+Sold Properties,Status,Equals,Sold,Listed On,Descending
+Family Homes (3+ Bedrooms),Bedrooms,Is greater than or equal to,3,Bedrooms,Descending
+Premium Listings Above 3M,Asking Price,Is greater than,3000000,Asking Price,Descending

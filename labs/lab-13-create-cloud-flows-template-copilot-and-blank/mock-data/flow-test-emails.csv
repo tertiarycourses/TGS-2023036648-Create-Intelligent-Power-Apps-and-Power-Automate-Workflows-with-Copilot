@@ -1,0 +1,9 @@
+Subject,From,ReceivedOn,HasAttachment,AttachmentName,ExpectedFlowBehaviour
+Kennel booking confirmation - Rex,jane.tan@outlook.sg,2026-06-01 09:14,Yes,booking-rex.pdf,Template flow saves booking-rex.pdf to OneDrive /Email attachments
+Invoice INV-2026-0412,accounts@petsupplies.com.sg,2026-06-01 11:02,Yes,INV-2026-0412.pdf,Attachment saved; run history shows one iteration of the Apply to each
+Weekly newsletter,news@sgpetworld.com,2026-06-01 12:30,No,,Flow runs but the Apply to each loop has zero iterations - no file written
+Vaccination record - Bella,priya.nair@gmail.com,2026-06-02 08:47,Yes,bella-vaccination.jpg,Image attachment saved with its original file name
+Re: Kennel availability June,marcus.lee@hotmail.com,2026-06-02 14:20,No,,"No attachment; used to prove the trigger fires on every mail, not only those with files"
+Boarding agreement signed,hafiz.sulaiman@yahoo.com.sg,2026-06-03 10:05,Yes,agreement-coco.pdf,Attachment saved; verify Created By dynamic content in the notification email
+URGENT: pick up moved to Saturday,angela.chua@singnet.com.sg,2026-06-03 16:41,No,,Used to test a trigger condition on the subject containing URGENT
+Photos from Simba's stay,angela.chua@singnet.com.sg,2026-06-04 18:12,Yes,simba-1.jpg,Multiple attachments produce multiple loop iterations in run history

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <!--
+    Power Apps Component Framework field control.
+
+    Namespace + constructor together form the control's logical name:
+        TertiaryInfotech.RatingControl
+
+    Scaffold this project with:
+        pac pcf init  (namespace TertiaryInfotech, name RatingControl,
+                       template field)
+    then replace the generated manifest with this file.
+  -->
+  <control namespace="TertiaryInfotech"
+           constructor="RatingControl"
+           version="1.0.0"
+           display-name-key="RatingControl_Display_Key"
+           description-key="RatingControl_Desc_Key"
+           control-type="standard">
+
+    <!--
+      The bound property. Because usage="bound", the control is placed on a
+      column of a form or a canvas-app data card, and the value flows both ways:
+      Power Apps -> context.parameters.ratingValue.raw
+      control    -> getOutputs() { ratingValue: ... }
+    -->
+    <property name="ratingValue"
+              display-name-key="RatingValue_Display_Key"
+              description-key="RatingValue_Desc_Key"
+              of-type="Whole.None"
+              usage="bound"
+              required="true" />
+
+    <!--
+      Optional input-only property so a maker can cap the number of stars
+      without editing the code. Defaults to 5 when it is not supplied.
+    -->
+    <property name="maxRating"
+              display-name-key="MaxRating_Display_Key"
+              description-key="MaxRating_Desc_Key"
+              of-type="Whole.None"
+              usage="input"
+              required="false" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/RatingControl.css" order="1" />
+      <resx path="strings/RatingControl.1033.resx" version="1.0.0" />
+    </resources>
+
+    <!--
+      Uncomment if the control ever needs to call the Web API or read
+      the current user's settings.
+
+    <feature-usage>
+      <uses-feature name="WebAPI" required="false" />
+    </feature-usage>
+    -->
+  </control>
+</manifest>

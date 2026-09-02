@@ -1,0 +1,9 @@
+User,Role,AppPermission,DataversePermission,ExpectedOutcome
+Tan Wei Ming,App Maker,Co-owner,System Customizer,"Can open, edit and republish the app, and read and write all Booking Request rows"
+Lim Hui Ling,Kennel Supervisor,Can use,Basic User + Booking Request write,"Can open the shared app and create, read and update booking rows"
+Goh Mei Yun,Front Desk,Can use,Basic User + Booking Request read only,App opens but Save fails with a write privilege error - captured as the TSC A7 issue report
+Kumar Rajendran,Finance Reviewer,Can use,Basic User (no Booking Request privileges),App opens to an empty gallery and a Dataverse 403; fixed in Lab 26 by assigning the security role
+Adeline Yeo Shu Ting,Auditor,Can use,System Administrator,"Full read of every row - over-privileged, flag as a least-privilege violation"
+Daniel Koh Jun Kai,Procurement,Not shared,Basic User,App URL returns 'You do not have permission to use this app'
+Kennel Operations (security group),Group share,Can use,Basic User + Booking Request write,All members inherit access; preferred over per-user sharing for maintainability
+External Guest (contoso.onmicrosoft.com),Guest,Can use,None,Sharing is blocked - guest accounts cannot be granted a Dataverse security role in this tenant

@@ -1,0 +1,11 @@
+Question,ExpectedAgent,Why
+How many days of annual leave do I have left this year?,HR Policy Assistant,Leave entitlement is documented in annual-leave.md - the parent agent's own knowledge
+What is the per-claim cap for a client dinner in Singapore?,Finance Assistant,"Entertainment caps live in claims-policy.md, which only the Finance Assistant has"
+Can I work from home three days a week?,HR Policy Assistant,WFH limits are in wfh-policy.md on the parent agent
+"Do I need three quotes to buy a SGD 12,000 laptop batch?",Finance Assistant,Procurement thresholds are in procurement-policy.md
+What is the economy-class rule for a flight to Kuala Lumpur?,Finance Assistant,Travel class rules are in travel-policy.md
+What notice period do I serve after four years of service?,HR Policy Assistant,Notice table is in annual-leave.md
+How long do I have to submit a taxi receipt?,Finance Assistant,Claim submission window is in claims-policy.md
+"Is the outpatient cap SGD 800 or SGD 1,000?",HR Policy Assistant,Medical benefit caps are in medical-benefits.md on the parent agent
+Which hotel band applies to a two-night trip to Jakarta?,Finance Assistant,Hotel bands are in travel-policy.md
+Can I expense a laptop I bought myself without a purchase order?,Finance Assistant,"Crosses claims and procurement - both documents sit with the Finance Assistant, so the parent must hand off"

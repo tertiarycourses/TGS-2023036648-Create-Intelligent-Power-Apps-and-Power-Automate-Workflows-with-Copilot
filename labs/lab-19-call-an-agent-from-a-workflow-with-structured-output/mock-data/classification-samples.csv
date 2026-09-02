@@ -1,0 +1,13 @@
+RequestText,ExpectedCategory,ExpectedUrgency
+I would like to book boarding for my Shih Tzu from 12 to 15 July at the Punggol branch.,Booking,Normal
+My dog came back from your Jurong kennel with a limp and nobody told me. I want an explanation today.,Complaint,High
+Do you take cats? What is the nightly rate for a cattery space in Woodlands?,Other,Low
+URGENT - Bella is due for pick up in two hours and no one is answering the Sentosa branch phone.,Complaint,High
+"Please extend Rex's stay by two more nights, owner Jane Tan, booking BR-1001.",Booking,Normal
+I was charged SGD 385 but the quote said SGD 336. Please review the invoice for BR-1119.,Complaint,Normal
+Can I bring my own food for Simba during his stay next week?,Other,Low
+"Booking request: Peanut, owner Melissa Ang, 20 to 22 June, Jurong Block A.",Booking,Normal
+The kennel was not cleaned and my dog has been unwell since Saturday. I am considering reporting this.,Complaint,High
+Are you open on Hari Raya Puasa? I need to arrange a drop off that morning.,Other,Low
+"Need a kennel for Kopi for the whole of next week, owner Iskandar Mohd Noor. Sentosa Deluxe if available.",Booking,Normal
+Nobody has replied to three emails about my refund for the cancelled June booking. This is unacceptable.,Complaint,High

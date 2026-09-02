@@ -1,0 +1,11 @@
+Connector,Purpose,LicenceTier,Status,FeasibilityNotes
+Excel Online (Business),Read and write the CoffeeMachineData table stored in OneDrive for Business,Standard,Connected,No premium licence needed. Binds only to a named Excel table; a plain range will not appear in the Power Apps data picker.
+SharePoint,Host the Kennel Bookings list and the HR policy document library,Standard,Connected,"Delegable for equals, StartsWith and simple comparisons only. Lookup and Person columns need extra handling in Power Fx."
+Office 365 Users,"Resolve the signed-in user's name, photo and manager for app branding",Standard,Connected,"Read-only against Microsoft Entra ID. UserPhotoV2 throws for accounts with no photo, so wrap it in IfError."
+Outlook,Send booking confirmation and digest emails from the training account,Standard,Connected,Send-as-self only. Sending on behalf of a shared mailbox needs the Send As permission granted by the tenant admin.
+Dataverse,"Primary store for Booking Request, Kennel, Property and Listing Agent tables",Standard (Power Apps per-app or per-user plan),Connected,Requires a Dataverse database in the environment. Confirm Tables loads in the maker portal before Lab 6.
+Microsoft Teams,Deliver actionable approval cards for the booking approval flow,Standard,Connected,Approvals must be routed to Teams; Outlook approval cards are not actionable from the Copilot Studio flow designer.
+SQL Server,Optional read of the legacy on-premises property listing database,Premium,Not connected,Premium connector plus an on-premises data gateway. Out of scope for the training tenant - documented as a feasibility gap only.
+HTTP,Call an external REST endpoint for postal-code lookup,Premium,Not connected,Premium. Blocked by the tenant DLP policy that separates business and non-business connectors. Use an agent flow tool instead.
+Approvals,Start and wait for a human decision inside the booking flow,Standard,Connected,Depends on the Teams and Outlook connections. Approval history is stored in the Approvals Dataverse tables in the same environment.
+Power BI,Publish the property sales dashboard beyond the model-driven app,Premium (Power BI Pro),Not connected,Needs a Power BI Pro licence per viewer. Dataverse charts cover the Lab 24 requirement without it.

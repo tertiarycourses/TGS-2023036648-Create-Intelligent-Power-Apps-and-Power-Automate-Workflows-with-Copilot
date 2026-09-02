@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RequestClassification",
+  "description": "Custom structured output returned by the Agent node in the Power Automate flow built in Lab 19. Paste the properties below into the Agent node's Output > Custom structured output editor.",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "description": "The kind of request the customer message represents. Choose exactly one.",
+      "enum": ["Booking", "Complaint", "Other"]
+    },
+    "urgency": {
+      "type": "string",
+      "description": "How quickly a human must respond. High means the customer is distressed, an animal's welfare is mentioned, or a same-day deadline is stated. Low means a general enquiry with no deadline.",
+      "enum": ["High", "Normal", "Low"]
+    },
+    "draftReply": {
+      "type": "string",
+      "description": "A polite reply of 40 to 120 words addressed to the customer, in British English, signed off as the Pet Boarding team. Never promise a refund or a discount; never invent a booking reference.",
+      "minLength": 40,
+      "maxLength": 900
+    }
+  },
+  "required": ["category", "urgency", "draftReply"],
+  "additionalProperties": false
+}

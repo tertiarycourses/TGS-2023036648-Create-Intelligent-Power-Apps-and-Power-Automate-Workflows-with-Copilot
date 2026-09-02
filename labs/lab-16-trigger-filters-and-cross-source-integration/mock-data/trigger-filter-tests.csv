@@ -1,0 +1,11 @@
+TestCase,ColumnChanged,NewStatus,ShouldFlowRun,Why
+TF-01,Status,Confirmed,Yes,Status is in Select columns and the Filter rows expression statuscode eq 1 matches Confirmed
+TF-02,Status,Declined,No,"Status is a selected column so the trigger evaluates, but the Filter rows expression excludes Declined"
+TF-03,Owner Name,(unchanged),No,"Owner Name is not in Select columns, so the modification never reaches the trigger"
+TF-04,Rate,(unchanged),No,Rate is not a selected column - this is the edit that produced most of the wasted baseline runs
+TF-05,Pick Up,(unchanged),No,Date change on a non-selected column; run count stays flat
+TF-06,Status and Rate together,Confirmed,Yes,One save touching both columns still fires once because Status is selected and matches the filter
+TF-07,Status,Requested,No,Row reset to Requested; the filter only admits statuscode eq 1
+TF-08,Kennel (lookup),(unchanged),No,Lookup change is not in Select columns; use the relationship's schema name if you ever need it
+TF-09,(new row created),Requested,No,"Change type is Modified only, so a create does not fire this flow at all"
+TF-10,(row deleted),(n/a),No,Delete is excluded by the Modified-only change type; a separate flow would be needed

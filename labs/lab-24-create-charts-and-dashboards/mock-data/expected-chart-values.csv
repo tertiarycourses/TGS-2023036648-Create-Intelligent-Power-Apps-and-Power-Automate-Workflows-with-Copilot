@@ -1,0 +1,17 @@
+Chart,Series,Category,ExpectedValue,HowItIsCalculated
+Properties by Status,Count of Property Name,Available,11,Rows in properties.csv where Status = Available
+Properties by Status,Count of Property Name,Under Offer,4,Rows in properties.csv where Status = Under Offer
+Properties by Status,Count of Property Name,Sold,3,Rows in properties.csv where Status = Sold
+Average Price by Type,Avg of Asking Price,Residential,2569583.33,"SGD 30,835,000 across 12 residential rows / 12"
+Average Price by Type,Avg of Asking Price,Commercial,4255000.00,"SGD 25,530,000 across 6 commercial rows / 6"
+Listings by Agent,Count of Property Name,Clarissa Teo Hui Shan,3,"Icon Residences 12-05, Serangoon Garden Semi-D, Katong Conservation Terrace"
+Listings by Agent,Count of Property Name,Nicholas Chan Kok Wai,3,"Wallich Tower Office 28-02, Tanjong Pagar Shophouse, Paya Lebar Quarter Suite 19-04"
+Listings by Agent,Count of Property Name,Devika Raman,3,"Sixth Avenue Villa, Holland Hill Mansion 07-03, Bukit Timah Regency 11-07"
+Listings by Agent,Count of Property Name,Hafizah Binte Rahim,3,"Tessensohn Grove 03-11, Tampines Sky Loft 22-115, Queenstown Skyville 26-88"
+Listings by Agent,Count of Property Name,Jeremy Ong Zhi Hao,3,"Punggol Waterway Terraces 09-42, Punggol Northshore 15-208, Woodlands Glen 08-320"
+Listings by Agent,Count of Property Name,Samantha Lim Pei Ru,3,"Jurong Gateway Retail Unit 02-17, Jurong East Industrial Loft 05-08, Changi Business Park Unit 04-22"
+Portfolio Value by Status,Sum of Asking Price,Available,32245000,Sum of Asking Price for the 11 Available rows
+Portfolio Value by Status,Sum of Asking Price,Under Offer,20750000,Sum of Asking Price for the 4 Under Offer rows
+Portfolio Value by Status,Sum of Asking Price,Sold,3370000,Sum of Asking Price for the 3 Sold rows
+(whole table),Count of Property Name,All properties,18,Total rows in properties.csv
+(whole table),Sum of Asking Price,All properties,56365000,Total portfolio value across all 18 rows

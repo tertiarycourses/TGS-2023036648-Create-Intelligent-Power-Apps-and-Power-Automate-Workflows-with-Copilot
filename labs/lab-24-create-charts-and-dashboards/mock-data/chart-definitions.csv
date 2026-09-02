@@ -1,0 +1,5 @@
+ChartName,Type,Legend,Axis,Aggregate
+Properties by Status,Column,Count of Property Name,Status,Count (All)
+Average Price by Type,Column,Avg of Asking Price,Property Type,Avg
+Listings by Agent,Bar,Count of Property Name,Listing Agent,Count (All)
+Portfolio Value by Status,Pie,Sum of Asking Price,Status,Sum

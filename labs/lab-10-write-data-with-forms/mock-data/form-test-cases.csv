@@ -1,0 +1,11 @@
+TestCase,Field,InputValue,ExpectedResult
+TC-01,Pet Name,Rex,Form saves; new Booking Request row appears in Dataverse with Pet Name = Rex
+TC-02,Pet Name,(left blank),SubmitForm is blocked; the primary column is required and the card shows a red error
+TC-03,Owner Name,(left blank),SubmitForm is blocked; Owner Name is Business required so Form.Error returns a validation message
+TC-04,Owner Name,Jane Tan Li Ping,Value saves and is displayed unchanged on the Display form
+TC-05,Drop Off,2026-06-01,Date saves as 1 Jun 2026; DetailScreen shows it formatted dd mmm yyyy
+TC-06,Pick Up,2026-05-28,"Row still saves - the platform does not enforce Pick Up after Drop Off, so this is a gap to log for Lab 26"
+TC-07,Status,Confirmed,Choice card writes the Confirmed option; the gallery row restyles to the confirmed colour
+TC-08,Rate,48.00,"Currency saves as SGD 48.00 and renders with the $#,##0.00 format string"
+TC-09,Rate,forty eight,Number card rejects the text input; SubmitForm does not fire and OnFailure is not reached
+TC-10,Kennel (lookup),Bukit Timah Suite,Lookup card resolves to the Kennel row and the saved record shows the related record link

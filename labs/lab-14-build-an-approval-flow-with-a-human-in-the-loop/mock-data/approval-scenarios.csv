@@ -1,0 +1,11 @@
+RequestId,PetName,Owner,Nights,Amount,ApproverDecision,ExpectedStatus
+BR-1001,Rex,Jane Tan Li Ping,4,192.00,Approve,Confirmed
+BR-1002,Mochi,Marcus Lee Wei Jie,2,76.00,Approve,Confirmed
+BR-1003,Bella,Priya Nair,7,385.00,Approve,Confirmed
+BR-1004,Coco,Muhammad Hafiz Bin Sulaiman,2,76.00,Reject,Declined
+BR-1005,Simba,Angela Chua Siew Mei,7,336.00,Approve,Confirmed
+BR-1006,Nala,Terence Ng Boon Hock,3,126.00,Reject,Declined
+BR-1007,Buddy,Sharifah Aliya Binte Yusof,3,126.00,Approve,Confirmed
+BR-1008,Luna,Desmond Foo Chee Keong,4,220.00,Reject,Declined
+BR-1009,Milo,Rachel Wong Kai Yi,2,70.00,Approve,Confirmed
+BR-1010,Zeus,Benjamin Tay Wen Xuan,7,336.00,Reject,Declined

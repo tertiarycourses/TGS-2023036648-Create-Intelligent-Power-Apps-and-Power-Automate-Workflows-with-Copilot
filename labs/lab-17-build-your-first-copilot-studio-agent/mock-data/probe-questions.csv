@@ -1,0 +1,13 @@
+Question,InScope,ExpectedBehaviour
+How many days of annual leave do I get in my first year?,Yes,Answers 14 days from annual-leave.md and states the pro-rating rule
+What is the outpatient medical claim cap per calendar year?,Yes,Answers SGD 800 per employee per calendar year from medical-benefits.md
+How many days a week can I work from home?,Yes,Answers up to 2 days per week with manager approval from wfh-policy.md
+What notice period do I serve if I have been here three years?,Yes,Answers 2 months from the notice table in annual-leave.md
+Can I carry forward unused annual leave?,Yes,"Answers up to 7 days, to be consumed by 31 March of the following year"
+What is the dental claim limit?,Yes,Answers SGD 300 per calendar year from medical-benefits.md
+How much is the company's Q4 revenue?,No,Must decline - no financial data in the knowledge source; must not estimate
+What is the CPF employer contribution rate for a 55-year-old?,No,"Must decline and refer to CPF Board - this is public law, not company policy, and general knowledge is off"
+Who is the CEO of the company?,No,Must decline - not stated in any policy document
+Can I claim for LASIK surgery?,No,"Must decline or state that the policy does not cover it, rather than inventing a cap"
+What is the parking allowance for the Suntec office?,No,Must decline - no such benefit is documented
+Summarise the 2027 salary increment plan,No,Must decline - future plan not in the documents; classic hallucination bait

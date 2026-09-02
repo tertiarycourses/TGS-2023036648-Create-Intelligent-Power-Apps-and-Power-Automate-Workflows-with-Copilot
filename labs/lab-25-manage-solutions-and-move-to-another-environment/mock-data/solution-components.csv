@@ -1,0 +1,13 @@
+ComponentType,ComponentName,IncludeInSolution,Why
+Table,Property,Yes,"Core entity of the Contoso Real Estate model; carries its columns, forms, views and charts"
+Table,Listing Agent,Yes,Related table - the Property lookup breaks on import if this table is missing
+Relationship,Property to Listing Agent (N:1),Yes,Travels automatically with the Property table but confirm it is listed in Objects before export
+Model-driven app,Contoso Real Estate,Yes,"The deliverable itself, including its site map"
+Chart,Properties by Status,Yes,"System chart owned by the Property table; must be added explicitly, it is not implied by the table"
+Chart,Average Price by Type,Yes,As above - charts are separate solution components
+Dashboard,Sales Overview,Yes,"References both charts, so both must be in the same solution or the import fails"
+Cloud flow,Booking Approval,Yes,Ships the automation with the app; creates connection references the importer must supply
+Connection reference,Dataverse (tic_sharedcommondataserviceforapps),Yes,Required so the flow can be rebound to the Test environment's connection at import time
+Security role,Kennel Supervisor,Yes,Without it the imported app opens to an empty grid for every non-admin user in Test
+Canvas app,Booking Request,No,"Belongs to the LU2 pet-boarding scenario, not Contoso Real Estate; keep solutions scoped to one deliverable"
+Environment variable,Contoso Support Email,Yes,Lets the Test environment use its own address without editing the managed components

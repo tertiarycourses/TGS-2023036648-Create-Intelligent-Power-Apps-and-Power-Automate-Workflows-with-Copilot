@@ -1,0 +1,16 @@
+MachineId,Model,Location,Status,LastServiced,DailyCups
+CM-001,Jura X8 Professional,"Level 3 Pantry, Suntec Tower Two",Operational,2026-05-12,142
+CM-002,WMF 1500 S+,"Level 1 Lobby Cafe, Suntec Tower Two",Operational,2026-05-28,268
+CM-003,Franke A600,"Level 8 Executive Lounge, Suntec Tower Two",Needs Service,2026-02-14,76
+CM-004,Jura X8 Professional,"Level 2 Pantry, Changi Business Park",Operational,2026-06-03,118
+CM-005,Nespresso Momento 200,"Level 4 Meeting Suites, Changi Business Park",Operational,2026-05-19,54
+CM-006,WMF 1500 S+,"Level 1 Canteen, Jurong Innovation District",Out of Service,2026-01-22,0
+CM-007,Franke A800,"Level 6 Pantry, Jurong Innovation District",Operational,2026-06-10,205
+CM-008,Jura GIGA X3,"Level 5 Client Floor, Marina Bay Financial Centre",Operational,2026-06-07,312
+CM-009,Nespresso Momento 100,"Level 12 Pantry, Marina Bay Financial Centre",Needs Service,2026-03-08,89
+CM-010,WMF 5000 S+,"Level 1 Reception, Mapletree Business City",Operational,2026-05-30,247
+CM-011,Franke A600,"Level 7 Pantry, Mapletree Business City",Operational,2026-06-01,133
+CM-012,Jura X8 Professional,"Level 2 Pantry, Woodlands Regional Centre",Out of Service,2025-12-15,0
+CM-013,Nespresso Momento 200,"Level 3 Pantry, Woodlands Regional Centre",Operational,2026-05-24,97
+CM-014,WMF 1500 S+,"Level 9 Pantry, Paya Lebar Quarter",Needs Service,2026-03-30,61
+CM-015,Franke A800,"Level 1 Cafe, Paya Lebar Quarter",Operational,2026-06-11,286

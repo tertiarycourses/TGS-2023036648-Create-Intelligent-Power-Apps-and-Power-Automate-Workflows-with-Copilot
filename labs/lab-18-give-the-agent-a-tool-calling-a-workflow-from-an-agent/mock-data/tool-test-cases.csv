@@ -1,0 +1,11 @@
+Utterance,ExpectedTool,PetName,Nights,ExpectedOutcome
+"Book a kennel for Rex for 3 nights, owner Jane Tan",CreateBookingRequest,Rex,3,Tool called; Dataverse row created; agent returns the confirmation and the row id
+"I need boarding for Mochi from 2 to 4 June, owner Marcus Lee",CreateBookingRequest,Mochi,2,Agent derives 2 nights from the dates and calls the tool
+Can you board Bella for a week? Owner is Priya Nair,CreateBookingRequest,Bella,7,Agent resolves 'a week' to 7 nights before calling the tool
+Book Coco in,CreateBookingRequest,Coco,,Agent must ask for the owner name and the number of nights before calling the tool
+"Book Zeus for 60 nights, owner Benjamin Tay",CreateBookingRequest,Zeus,60,"Tool is called but the flow Condition rejects it - nights above 30 returns the refusal message, no row written"
+"Book Luna for 31 nights, owner Desmond Foo",CreateBookingRequest,Luna,31,"Boundary just over the limit - refused by the flow, proving the Condition is enforced not advisory"
+"Book Milo for 30 nights, owner Rachel Wong",CreateBookingRequest,Milo,30,"Boundary at the limit - accepted, row created"
+What are your opening hours?,(none),,,No tool call; the agent answers from knowledge or declines
+"Book minus 2 nights for Nala, owner Terence Ng",CreateBookingRequest,Nala,-2,Flow validation rejects a non-positive night count; no row written
+Book a kennel for my dog for 5 nights,CreateBookingRequest,,5,Agent must ask for the pet name and owner name; the tool has three required inputs
