@@ -92,7 +92,7 @@ computed from Lab 21's property data, so learners can self-verify.
 
 | Artifact | Format | Notes |
 |---|---|---|
-| **Trainer Slides** | `courseware/Create Intelligent Power Apps and Power Automate Workflows with Copilot-v12.0.pptx` + PDF | 203 slides, all-white house style, concept-first |
+| **Trainer Slides** | `courseware/Create Intelligent Power Apps and Power Automate Workflows with Copilot-v12.0.pptx` + PDF | 204 slides, all-white house style, concept-first |
 | **Lesson Plan** | `courseware/LP-Create Intelligent Power Apps and Power Automate Workflows with Copilot.docx` + PDF | 4 days × 8 training hours, 9:30am–6:30pm, with slide references |
 | **Learner Guide** | `courseware/LG-Create Intelligent Power Apps and Power Automate Workflows with Copilot.docx` + PDF | Full step-by-step for all 26 labs, with UI walkthroughs |
 | **Learner Guide (Markdown)** | `LG-*.md` | Same content, readable on GitHub |
@@ -155,6 +155,8 @@ attendance** is required to be eligible for assessment and funding.
 | Singaporean, age 40+ / MCES / SME | 70% | **$624** |
 
 Also claimable via **SkillsFuture Credit**, **SFEC**, **UTAP**, **PSEA** and **Absentee Payroll**.
+
+Eligibility and terms apply; see the [course page](https://www.tertiarycourses.com.sg/wsq-create-intelligent-power-apps-and-power-automate-workflows-with-copilot.html) for current fees and funding.
 
 ---
 
